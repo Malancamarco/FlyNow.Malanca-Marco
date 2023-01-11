@@ -1,0 +1,128 @@
+body{
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #123488;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+#buttonNav{
+    position: relative;
+    left: 10px;
+}
+
+.center{
+    text-align: center;
+    color: white
+}
+
+
+.img{
+    width: 100%;
+    height: 300px;
+    background-attachment: scroll;
+
+}
+@media screen and (max-width: 800px) {
+
+    .img {
+        display: none;
+        width: 100%;
+        
+    }
+
+    .contenitorImg{
+        display: none;
+    }
+
+}
+
+.contenitorImg{
+    width: 100%;
+    height: 500px;
+}
+
+.backgroundImg{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.fa-solid {
+    color: black;
+}
+
+.fa-regular{
+    color: black;
+
+}
+
+/*LINKEDIN ICON*/
+#linkedin{
+    font-size: x-large;
+}
+
+
+.space{
+    margin-top: 90px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white;
+}
+
+#link:hover{
+    color: black
+}
+
+#icon{
+    color: black;
+}
+
+
+
+
+
+/*HEADER*/
+#button {
+	font-size: 0.9rem;
+	letter-spacing: 0.05rem;
+	padding: 0.75rem 1rem;
+	background-color: rgb(223, 138, 58);
+	color: white;
+	
+  }
+
+ #button:hover{
+	text-decoration: none;
+	background-color:rgb(223, 138, 58);
+	color: white;
+ } 
+  
+  .btn-google {
+	color: white ;
+	background-color: #ea4335;
+  }
+  
+  .btn-facebook {
+	color: white ;
+	background-color: #3b5998;
+  }
+
+ #google:hover{
+	background-color: #ea4335;
+	color: white;
+ }
+
+ #facebook:hover{
+	background-color: #3b5998;
+	color: white;
+ }

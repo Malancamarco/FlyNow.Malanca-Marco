@@ -1,0 +1,130 @@
+body{
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #123488;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+#header{
+    margin-left: 0%; 
+    margin-right: 0%; 
+    
+}
+
+#right{
+    padding: 0%;
+}
+
+/*NAVBAR*/
+
+#buttonNav{
+    position: relative;
+    left: 10px;
+}
+/*NAVBAR END*/ 
+
+p{
+    text-align: justify;
+}
+
+
+.center{
+    text-align: center;
+    color: white
+}
+
+/*J-QUERY*/
+@media screen and (max-width: 800px) {
+
+    .img {
+        display: none;
+        width: 100%;
+        background-attachment: scroll;
+        
+        
+    }
+
+    .contenitorImg{
+        display: none;
+    }
+
+}
+
+.contenitorImg{
+    width: 100%;
+    height: 420px;
+    
+
+}
+/*J-QUERY END*/
+
+
+/*BANCKGROUND IMAGE*/
+.backgroundImg{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+/*BACKGROUND IMAGE END*/
+
+
+/*ICON COLOR*/
+.fa-solid {
+    color: black;
+}
+
+.fa-regular{
+    color: black;
+}
+
+/*LINKEDIN ICON*/
+#linkedin{
+    font-size: x-large;
+}
+/*ICON COLOR END*/
+
+
+/*SPACE*/
+.space{
+    margin-top: 90px;
+}
+/*SPACE END*/
+
+
+/*LINK*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white
+}
+
+#link:hover{
+    color: black
+}
+
+
+li.dropdown-item :hover{
+    color: black;
+}
+
+#icon{
+    color: black;
+}
+/*LINK END*/
+
+#buttonPayement{
+    background-color: rgb(233, 138, 58);
+    color: white;
+}
+
+radio{
+    background-color: rgb(233, 138, 58);
+}
+

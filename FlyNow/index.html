@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlyNow.com</title>
+  
+  <!-- OWL CAROUSEL -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  <!-- FONTAWESOME -->
+  <script src="https://kit.fontawesome.com/244e2535d4.js" crossorigin="anonymous"></script>
+  
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="/file.css">
+  
+</head>
+
+
+<body>
+  
+  <!-- NAVBAR -->
+  <nav class="navbar rounded navbar-expand-lg navbar-light bg-white sticky-sm-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/index.html">
+        <img src="/media/logo.png" alt="Logo" width="60" height="40" class="d-inline-block align-text-center">
+        <strong id="titolo" >FlyNow</strong> 
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index.html">Home</a> 
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Profilo
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="/login/subscribe.html"><strong>-</strong> Accedi</a></li>  <strong></strong>
+              <li><a class="dropdown-item" href="/login/subscribe.html"><strong>-</strong> Registrati</a></li>
+              <li><a class="dropdown-item" href="/help/help.html"><strong>-</strong> Servizio clienti &nbsp;&nbsp;<i class="fa-solid fa-headset"></i> </a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Prenota e Gestisci
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"><strong>-</strong> Prenota</a></li>
+              <li><a class="dropdown-item" href="#"><strong>-</strong> Checkin</a></li>
+              <li><a class="dropdown-item" href="#"><strong>-</strong> I miei voli</a></li>
+              <li><a class="dropdown-item" href="#"><strong>-</strong> Info voli</a></li>
+              <li><a class="dropdown-item" href="#"><strong>-</strong> Classi di viaggio</a></li>
+              <li><a class="dropdown-item" href="#"><strong>-</strong> Servizi aggiuntivi</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/chisiamo/chisiamo.html">Chi siamo</a> 
+          </li>
+        </li>
+      </div>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active " href="#"><i class="fa-solid fa-magnifying-glass "></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active " href="/salvato/save.html"><i class="fa-regular fa-bookmark"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active justify-content-end" href="/login/subscribe.html"><i class="fa-solid fa-user"></i></a>
+        </li>
+        <li>
+          <a class="nav-link active justify-content-end" href="https://www.linkedin.com/in/marcomalanca/
+          "><i id="linkedin" class="fa-brands fa-linkedin-in"></i>
+        </li>
+      </div>
+    </ul>
+  </nav>
+  <!-- NAVBAR END -->
+  
+  
+  <div class="space"></div>
+  
+  
+  <!-- HEADER -->
+  <header>
+    <div class="contenitorImg">
+      <img class="backgroundImg rounded" src="/media/sfondo2.jpg" alt="">
+    </div>
+    <div class="space"></div>
+    <div>
+      
+      
+  <!-- FORM -->
+  <div class="center">
+        <h5> - Prenota il tuo volo ora -</h5>
+  </div>
+  <div id="prenotationForm" class="container rounded shadow-sm"> 
+        <form action="">
+          <div class="row"> 
+            <div class="col-md-2 pe-0 col-sm-12"> 
+              <div class="btn radio-btn mb-3">
+                <label class="radio"> 
+                  <input type="radio" value="a" name="book" checked> Andata <span></span>
+                </label> 
+              </div> 
+            </div> 
+            <div class="col-md-2 pe-0 col-sm-12"> 
+              <div class="btn radio-btn mb-3"> 
+                <label class="radio"> 
+                  <input type="radio" value="a" name="book"> Ritorno<span></span> 
+                </label> </div> </div> <div class="col-md-2 pe-0 col-sm-12"> 
+                  <div class="btn radio-btn mb-3"> <label class="radio">  
+                  </label> </div> </div> </div> <div class="row">
+                    <div class="col-md-6 col-12 mb-4"> <div class="form-control d-flex flex-column"> 
+                      <p class="h-blue">Da:</p> 
+                      <input class="inputbox" placeholder="Aeroporto di partenza" type="text"> 
+                    </div> </div> <div class="col-md-6 col-12 mb-4">
+                      <div class="form-control d-flex flex-column"> 
+                        <p class="h-blue">A:<A:blank></A:blank></p> <input class="inputbox" placeholder="Aeroporto di Arrivo" type="text">
+                      </div> 
+                    </div> 
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-12 mb-4">
+                      <div class="form-control d-flex flex-column">
+                        <p class="h-blue">Partenza</p> 
+                        <input class="inputbox textmuted" type="date">
+                      </div>
+                    </div>
+                    <div class="col-md-6 col-12 mb-4">
+                      <div class="form-control d-flex flex-column">
+                        <p class="h-blue">Ritorno</p>
+                        <input class="inputbox textmuted " type="date">
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4 mb-4">
+                      <div class="form-control d-flex flex-column">
+                        <p class="h-blue">Adulti(18+)</p>
+                        <select class="border-0 outline-none">
+                          <option value="" hidden selected>0</option>
+                          <option value="1">1</option> 
+                          <option value="2">2</option> 
+                          <option value="3">3</option> 
+                          <option value="4">4</option> 
+                          <option value="5">5</option>
+                        </select> </div> </div> <div class="col-md-4 mb-4"> 
+                          <div class="form-control d-flex flex-column">
+                            <p class="h-blue">Bambini(0-17)</p>
+                            <select class="border-0 outline-none"> 
+                              <option value="" hidden selected>0</option>
+                              <option value="1">1</option> 
+                              <option value="2">2</option> 
+                              <option value="3">3</option> 
+                              <option value="4">4</option> 
+                              <option value="5">5</option>
+                            </select> 
+                          </div> 
+                        </div> 
+                        <div class="col-md-4 mb-4">
+                          <div class="form-control d-flex flex-column">
+                            <p class="h-blue">Classe di viaggio</p>
+                            <select class="border-0 outline-none">
+                              <option value="" hidden selected>Class</option>
+                              <option value="1">Economy</option> 
+                              <option value="2">Premium</option>
+                              <option value="3">Business</option>
+                            </select>
+                          </div>
+                        </div>
+                      </div> 
+                      <a href="http://"><div id="buttonColor" class=" btn form-control center">MOSTRA VOLI </div></a>
+                    </form>
+  </div>
+  <!-- FORM END--> 
+                  
+  <!-- DROPDOWN CITY -->
+  <div class="space"></div>
+  <br>
+  <h5 class="center">Le migliori offerte in partenza da:</h5>
+  <br>
+  <div class="center dropend">
+                    <button id="dropdownCity" class=" center btn btn dropdown-toggle" type="button" data-bs-toggle="dropdown">Seleziona città di partenza <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Alghero</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Brindisi</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Bologna</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Bari</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Cagliari</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Catania</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Firenze</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Genova</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Milano</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Napoli</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Olbia</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Palermo</a></li>  
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Reggio Calabria</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Roma</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Lamezia Terme</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Torino</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Trieste</a></li>
+                      <li class="dropdown-item"><a href="#"><strong>- </strong>Venezia</a></li>
+                      <li class="dropdown-item"><a href="#"><strong> - Altro </strong><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                      
+                    </ul>
+  </div>
+  <br>
+  <!-- DROPDOWN CITY END -->
+                  
+                  
+  <!-- CARDS-->
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                      <div id="cards" class="card h-100">
+                        <img src="/media/cards/italia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>- </strong> Italia</h5>
+                          
+                        </div>
+                      </div>
+                    </div>
+                    <div id="cards" class="col">
+                      <div class="card h-100">
+                        <img src="/media/cards/francia.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>- </strong> Francia</h5>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div id="cards" class="col">
+                      <div class="card h-100">
+                        <img src="/media/cards/austria.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>- </strong> Austria</h5>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div id="cards" class="col">
+                      <div class="card h-100">
+                        <img src="/media/cards/america.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>- </strong> America</h5>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div id="cards" class="col">
+                      <div class="card h-100">
+                        <img src="/media/cards/india.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>- </strong> India</h5>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div id="cards" class="col">
+                      <div class="card h-100">
+                        <img src="/media/cards/giappone.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong>- </strong> Giappone</h5>
+                        </div>
+                      </div>
+                    </div>
+                    
+  </div>
+  <!-- CARDS END-->
+
+
+  <br>
+  <div class="center">
+  <a href="http://">
+  <button id="searchOther" type="button" class="btn center  ">Visualizza altro</button>
+  </a>
+  </div>
+                  
+  <br>
+  <div class="space"></div>
+                  
+  <!-- CARD -->
+  <div class="card mb-3" style="max-width: 100%;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="/media/ticket.jpg" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title"><strong> Biglietti di volo e FlyNow Club</strong></h5>
+                          <p class="card-text">Acquista i biglietti di volo direttamente sul nostro sito, accumula punti e ricevi magnifici sconti! 
+                            Accumulando punti entri a far parte del <strong> FlyNow Club</strong>, un gruppo fedeltà per i nostri frequent flyer, dove ottenere vantaggi personali. 
+                            Se desideri usufruire dei vantaggi del nostro club, puoi contattarci tramite mail <strong><a href="http://">FlyNow@gmail.com</a></strong>. 
+                            Il team di servizi è operativo dalle ore 08:00 alle 20:00, 7 giorni su 7, ad eccezione delle nostre linee olandesi e portoghesi, che sono aperte dalle ore 09:00 alle 17:00, dal Lunedì al Venerdì. Si applicano le tariffe telefoniche del proprio gestore. I vantaggi offerti dal Club valgono per ogni volo che effettuerai. Se hai realizzato la prenotazione autonomamente attraverso il tuo account, i vantaggi saranno estesi a tutti i Passeggeri che viaggiano sulla prenotazione insieme a te. Tuttavia, se un altro Passeggero apporta una modifica, ovvero non viaggia più insieme a te, non potrà più ricevere i vantaggi.</p>
+                            <p class="card-text"><small class="text-muted">visita per ulteriori informazioni : FlyNow.com/FlyNowClub</small></p>
+                          </div>
+                        </div>
+                      </div>
+  </div>
+  <!-- CARD END -->
+  <!-- HEADER END-->
+                    
+  <div class="space"></div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+  <h5 class="center">Le aziende con cui collaboriamo </h5>
+                    
+                    
+                    
+                    
+  <!-- CAROUSEL -->
+  <section id="section">
+                      <div class="container-fluid my-5">
+                        <div class="row">
+                          <div class="owl-carousel owl-theme">
+                            
+                            <div id="card" class="item mb-4">
+                              <div class="card border shadow">
+                                <img src="/media/aziende/1.png" height="100" width="100" alt="" />
+                              </div>
+                            </div>
+                            
+                            <div id="card" class="item mb-4">
+                              <div class="card border shadow">
+                                <img src="/media/aziende/2.png" height="100" width="100" alt="" /> 
+                              </div>
+                            </div>
+                            
+                            <div id="card" class="item mb-4">
+                              <div class="card border shadow">
+                                <img src="/media/aziende/3.png" height="100" width="100" alt="" />
+                              </div>
+                            </div>
+                            
+                            <div id="card" class="item mb-4">
+                              <div class="card border shadow h-100">
+                                <img src="/media/aziende/4.png" height="100" width="100" alt="" />
+                              </div>
+                            </div>
+                            
+                            <div id="card"class="item mb-4">
+                              <div class="card border shadow">
+                                <img src="/media/aziende/5.png" height="100" width="100" alt="" />
+                              </div>
+                            </div>
+                            
+                            <div id="card" class="item mb-4">
+                              <div class="card border shadow">
+                                <img src="/media/aziende/6.png" height="100" width="100" alt="" />
+                              </div>
+                            </div>
+                            
+                            <div id="card" class="item mb-4">
+                              <div class="card border shadow">
+                                <img src="/media/aziende/7.png" height="100" width="100" alt="" />
+                              </div>
+                            </div>
+                            
+                          </div>
+                        </div>
+                      </div>
+  </section>
+  <!-- CAROUSEL END -->
+                    
+                    
+  <!-- FOOTER -->
+  <footer  class="rounded bg-white text-center text-white">
+                      <div class=" rounded container p-4 pb-0">
+                        <section class="mb-4">
+                          <!-- Facebook -->
+                          <a id="icon"
+                          class="btn btn-floating m-1"
+                          href="https://it-it.facebook.com/"
+                          role="button"
+                          ><i class="fa-brands fa-facebook-f"></i></a>
+                          <!-- Twitter -->
+                          <a id="icon"
+                          class="btn btn-floating m-1"
+                          href="https://twitter.com/?lang=it"
+                          role="button"
+                          ><i class="fa-brands fa-twitter"></i></a>
+                          <!-- Mail -->
+                          <a id="icon"
+                          class="btn btn-floating m-1"
+                          href="https://www.google.com/intl/it/gmail/about/"
+                          role="button"
+                          ><i class="fa-solid fa-envelope"></i></a>
+                          <!-- Play store -->
+                          <a id="icon"
+                          class="btn btn-floating m-1"
+                          href="https://play.google.com/store/"
+                          role="button"
+                          ><i class="fa-brands fa-google-play"></i></a>
+                          <!-- App store -->
+                          <a id="icon"
+                          class="btn btn-floating m-1"
+                          href="https://www.apple.com/it/app-store/"
+                          role="button"
+                          ><i class="fa-brands fa-app-store-ios"></i></a>
+                        </section>
+                      </div>
+                      <!-- Copyright -->
+                      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                        © 2022 Copyright:
+                        <a class="text-white" href="">FlyNow.com</a>
+                      </div>
+  </footer>
+  <!--FOOTER END-->
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+  <!-- SCRIPT -->   
+  <div>             
+                      <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+                      
+                      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+                      
+                      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                      
+                      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                      
+                      <script src="/file.js"></script>
+  </div> 
+                    
+  </body>
+  </html>

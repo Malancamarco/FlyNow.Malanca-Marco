@@ -1,0 +1,289 @@
+
+body{
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: #123488;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+
+
+
+
+/*NAVBAR*/
+
+#buttonNav{
+    position: relative;
+    left: 10px;
+}
+/*NAVBAR END*/ 
+
+p{
+    text-align: justify;
+}
+
+
+.center{
+    text-align: center;
+    color: white
+}
+
+
+
+
+/*J-QUERY*/
+@media screen and (max-width: 800px) {
+
+    .img {
+        display: none;
+        width: 100%;
+        background-attachment: scroll;
+        
+        
+    }
+
+
+
+    .contenitorImg{
+        display: none;
+    }
+
+}
+
+.contenitorImg{
+    width: 100%;
+    height: 420px;
+    
+
+}
+/*J-QUERY END*/
+
+
+/*BANCKGROUND IMAGE*/
+.backgroundImg{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+/*BACKGROUND IMAGE END*/
+
+
+/*ICON COLOR*/
+.fa-solid {
+    color: black;
+}
+
+.fa-regular{
+    color: black;
+}
+
+/*LINKEDIN ICON*/
+#linkedin{
+    font-size: x-large;
+}
+
+/*ICON COLOR END*/
+
+
+/*SPACE*/
+.space{
+    margin-top: 90px;
+}
+/*SPACE END*/
+
+
+/*LINK*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: white
+}
+
+#link:hover{
+    color: black
+}
+
+
+li.dropdown-item :hover{
+    color: black;
+}
+
+#icon{
+    color: black;
+}
+/*LINK END*/
+
+#searchOther{
+    background-color: rgb(223, 138, 58);
+    text-decoration: none;
+}
+ 
+
+/*CAROUSEL*/
+#section{
+    margin-bottom: 10px;
+}
+
+.owl-nav{
+    color: white;
+    
+}
+/*CAROUSEL END*/
+
+/*CARDS*/
+#cards{
+    transition: .3s;
+}
+
+#cards:hover {
+    opacity: .4;
+}
+/*CARDS END*/
+
+#dropdownCity{
+    background-color: rgb(223, 138, 58);
+
+}
+
+
+
+.dropdown-menu {
+    max-height: 280px;
+    overflow-y: auto;
+}
+/*FOOTER*/
+
+
+/*CAROUSEL*/
+/*CAROUSEL END*/
+
+
+/*FORM*/
+#prenotationForm{
+    background-image: url();
+   
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+
+.container {
+    background-color: white;
+    margin: 20px auto;
+    padding: 30px 25px;
+    max-width: 800px;
+    
+}
+
+.box {
+    border: 2px solid #0D6EFD;
+    padding: 10px 20px;
+    
+}
+
+.inputbox {
+    border: none;
+    outline: none
+}
+
+.h-blue {
+    color: black;
+    margin-bottom: 5px;
+    padding-left: 4px;
+    font-size: 14px;
+    font-weight: 500
+}
+
+::placeholder {
+    font-size: 18px;
+    color: gray
+}
+
+.textmuted {
+    color: gray
+}
+
+.radio {
+    display: inline-block;
+    margin-left: 13px;
+    cursor: pointer;
+    font-weight: 500
+}
+
+.btn.radio-btn {
+    position: relative
+}
+
+.radio input[type="radio"] {
+    display: none
+}
+
+.radio span {
+    height: 20px;
+    width: 20px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 0
+}
+
+.radio span::after {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background-color: rgb(223, 138, 58);
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    border-radius: 50%;
+    transition: 300ms ease-in-out 0s
+}
+
+.radio input[type="radio"]:checked~span::after {
+    transform: translate(-50%, -50%) scale(1)
+}
+
+.outline-none {
+    outline: none
+}
+
+.btn.btn-outline {
+    height: 55px;
+    font-size: 15px;
+    padding: 10px; 
+    
+       
+}
+
+#buttonColor{
+    background-color: rgb(223, 138, 58);
+    color: white;
+    
+}
+
+
+@media (max-width:820px) {
+    body {
+        padding: 20px
+    }
+}
+/*FORM END*/
+
+
+#footer{
+    background-color: white;
+}
